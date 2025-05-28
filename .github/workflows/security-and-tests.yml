@@ -2,6 +2,7 @@ name: Security and Tests
 
 env:
   UV_SYSTEM_PYTHON: 1
+  SEMGREP_SKIP_BIN: true
 
 on:
   pull_request:
